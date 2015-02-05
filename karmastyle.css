@@ -1,0 +1,137 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {font-family: 'Roboto', sans-serif;
+	
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+/*end of reset*/
+/*start of custom style*/
+
+.content {padding: 0 15px;
+width: 970px;
+margin: 0 auto;}
+/*navigation section*/
+.top-navigation {background-color: #fff;}
+
+.top-navigation > .content
+{
+height: 100px;
+
+}
+
+.top-navigation > .logo
+{height: 70px;
+	
+}
+
+.top-navigation > .links
+{float: right;
+}
+
+.content {padding: 0 15px;
+
+color: #838994;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+.top-navigation .links li {display: inline-block;
+margin-left: 25px;
+margin-top: 0px ;
+margin-bottom: 50px ;
+border-bottom: 50px ;
+
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+    margin-left: 400px;
+
+}
+.top-navigation .links li:hover
+{cursor: pointer;
+color: #333333;}
+
+
+.introduction
+{background-image: url('images/first-background.jpg');
+background-position: center bottom;
+background-size: cover;
+height: 46rem;
+}
+
+h1,h3 {text-align: center;
+font-family: "Roboto" , sans-serif; 
+font-weight: 200;}
+
+h1{font-size: 56px; }
+h3 {font-size: 25px;}
+
+.introduction > .content
+{padding-top: 200px;}
+
+.big-button{
+	text-shadow: none;
+	border-radius: 4px;
+	border-style: none;
+	padding:16px 26px;
+	line-height: 1.33;
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	margin-top: 25px;
+}
+.big-button:hover
+{ cursor: pointer;}
+h2 {font-size: 48px;
+}
+
+.end {text-align: center;}
+.image{margin-left: 100px; 
+
+}
+
+.footer > li{
+	display: inline-block;
+	letter-spacing: 2px;
+font-size: 25px;
+margin-top: 25px; }
